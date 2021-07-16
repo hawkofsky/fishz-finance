@@ -1,0 +1,14 @@
+[debug] [2021-07-16T02:25:14.981Z] ----------------------------------------------------------------------
+[debug] [2021-07-16T02:25:14.984Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2021-07-16T02:25:14.985Z] CLI Version:   9.16.0
+[debug] [2021-07-16T02:25:14.985Z] Platform:      linux
+[debug] [2021-07-16T02:25:14.985Z] Node Version:  v14.16.0
+[debug] [2021-07-16T02:25:14.986Z] Time:          Fri Jul 16 2021 10:25:14 GMT+0800 (China Standard Time)
+[debug] [2021-07-16T02:25:14.986Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-07-16T02:25:15.164Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-07-16T02:25:15.164Z] > authorizing via signed-in user (hawkofsky112@gmail.com)
+[debug] [2021-07-16T02:25:15.165Z] [iam] checking project catz-finance for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-07-16T02:25:15.167Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-07-16T02:25:15.168Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
