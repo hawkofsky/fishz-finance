@@ -109,7 +109,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
           <Route exact path={`${path}`}>
             {stakedOnly ? farmsList(stakedOnlyFarms, false) : farmsList(activeFarms, false)}
           </Route>
-          <Route exact path={`${path}/history`}>
+          <Route exact path={path === '/' ? 'farms/history' : `${path}/history`}>
             {farmsList(inactiveFarms, true)}
           </Route>
         </FlexLayout>

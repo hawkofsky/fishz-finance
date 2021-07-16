@@ -91,6 +91,7 @@ export const useTotalValue = (): BigNumber => {
   let value = new BigNumber(0);
   for (let i = 0; i < farms.length; i++) {
     const farm = farms[i]
+    console.log(farm)
     if (farm.lpTotalInQuoteToken) {
       let val;
       if (farm.quoteTokenSymbol === QuoteToken.BNB) {
@@ -100,7 +101,8 @@ export const useTotalValue = (): BigNumber => {
       }else{
         val = (farm.lpTotalInQuoteToken);
       }
-      value = value.plus(val);
+      console.log('val:', val.toString());
+      value = value.plus(val.isNaN ? val : 0);
     }
   }
   return value;
