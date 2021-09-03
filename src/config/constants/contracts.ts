@@ -12,11 +12,11 @@ export default {
     97: '',
   },
   lottery: {
-    56: '',
+    56: '0x5b8dA120baec7399Baa068fda2f9F4055F5d0860',
     97: '',
   },
   lotteryNFT: {
-    56: '',
+    56: '0x9cb75f2B662be5B8e5Bf1729340f9362B164BE92',
     97: '',
   },
   mulltiCall: {

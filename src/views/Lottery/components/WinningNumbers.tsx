@@ -36,7 +36,7 @@ const WinningNumbers: React.FC = () => {
                 </TicketNumberBox>
               ))}
             </Row>
-            <RabbitRow>
+            {/* <RabbitRow>
               <RabbitBox>
                 <CardImageFirst>
                   <Image src="/images/sign bunny 1@2x.png" alt="Number 1" width={200} height={150} responsive />
@@ -57,7 +57,7 @@ const WinningNumbers: React.FC = () => {
                   <Image src="/images/sign bunny 4@2x.png" alt="Number 4" width={200} height={150} responsive />
                 </CardImage>
               </RabbitBox>
-            </RabbitRow>
+            </RabbitRow> */}
             <RabbitRowSmall>
               <RabbitBoxSmall>
                 <CardImageFirst>
@@ -100,9 +100,9 @@ const WinningNumbers: React.FC = () => {
                 </CenteredTextWithPadding>
               </RowNoPadding>
             </Column>
-            <Link href="https://api.pancakeswap.com/api/lottery?page=0&pageSize=25" target="_blank">
+            {/* <Link href="https://api.pancakeswap.com/api/lottery?page=0&pageSize=25" target="_blank">
               {TranslateString(448, 'Export recent winning numbers')}
-            </Link>
+            </Link> */}
           </StyledCardContentInner>
         </CardBody>
       </Card>
@@ -185,7 +185,7 @@ const CenteredTextWithPadding = styled.div`
 const TicketNumberBox = styled.div`
   padding: 10px;
   border-radius: 12px;
-  background: linear-gradient(180deg, #54dade 0%, #24c7d6 76.22%);
+  background: linear-gradient(180deg, #fef2da 0%, #fdb525 76.22%);
   color: white;
   font-size: 20px;
   font-weight: 900;

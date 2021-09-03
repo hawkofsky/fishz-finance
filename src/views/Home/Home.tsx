@@ -11,9 +11,10 @@ import TwitterCard from './components/TwitterCard'
 
 const Hero = styled.div`
   align-items: center;
-  background-image: url('/images/egg/3.png');
+  background-image: url('/images/egg/3b.png');
   background-repeat: no-repeat;
-  background-position: top center;
+  background-size: cover;
+  // background-position: top center;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -23,10 +24,11 @@ const Hero = styled.div`
   text-align: center;
 
   ${({ theme }) => theme.mediaQueries.lg} {
-    background-image: url('/images/egg/3.png'), url('/images/egg/3b.png');
-    background-position: left center, right center;
+    background-image: url('/images/egg/3.png');
+    // background-position: left center, right center;
     height: 165px;
     padding-top: 0;
+    background-size: contain;
   }
 `
 
@@ -60,7 +62,7 @@ const Home: React.FC = () => {
     <Page>
       <Hero>
         <Heading as="h1" size="xl" mb="24px" color="secondary">
-          {TranslateString(576, 'Fishz Finance')}
+          {TranslateString(999, '')}
         </Heading>
         <Text>{TranslateString(578, 'Excellent DEFI app on Binance Smart Chain.')}</Text>
       </Hero>
